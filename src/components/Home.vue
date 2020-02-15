@@ -1,16 +1,15 @@
 <template>
 <div class="home">
-    <div class="mask" v-if="ifDownload" @click="showDownload()">
+    <!-- <div class="mask" v-if="ifDownload" @click="showDownload()">
         <div :class="downloadContainerClassName">
             <p class="title">{{$t('lang.banner.chooseVersion')}}</p>
             <a v-if="isAndroid" href="https://chainplay-fun.oss-cn-beijing.aliyuncs.com/blockknights-tp.apk" class="download-btn">{{$t('lang.banner.TPVersion')}}</a>
             <a v-if="isAndroid" href="https://chainplay-fun.oss-cn-beijing.aliyuncs.com/blockknights-mykey.apk" class="download-btn">{{$t('lang.banner.MYKEYVersion')}}</a>
-            <!-- <a v-if="!isAndroid" href="itms-services:///?action=download-manifest&url=https://chainplay-fun.oss-cn-beijing.aliyuncs.com/crypto_knights.plist" class="download-btn">{{$t('lang.banner.TPVersion')}}</a> -->
             <a v-if="!isAndroid" @click="routerIOS()" href="javascript:void(0);" class="download-btn">{{$t('lang.banner.TPVersion')}}</a>
             <a v-if="!isAndroid" @click="routerIOSMYKEY()" href="javascript:void(0);" class="download-btn">{{$t('lang.banner.MYKEYVersion')}}</a>
             
         </div>
-    </div>
+    </div> -->
     <div class="mask" v-if="ifShowQrcode" @click="showQrcode()">
         <img src="../assets/images/qrcode.jpg" alt="">
     </div>
@@ -41,7 +40,8 @@
         <div class="banner-describe-main">
             <div class="banner-describe-1">精品放置卡牌链游</div>
             <div class="video">
-                <img class="video-content" src="../assets/images/video-content.png" alt="">
+                <!-- <img class="video-content" src="../assets/images/video-content.png" alt=""> -->
+                <video class="video-content" src="https://x1-package.oss-cn-hangzhou.aliyuncs.com/v.mp4" controls="controls"></video>
             </div>
             <div class="qrcode-content">
                 <ul>
@@ -300,7 +300,8 @@ export default {
     methods: {
         downloadAndroid(){
             let _this = this
-            window.location.href = 'itms-services:///?action=download-manifest&url=https://x1-package.oss-cn-hangzhou.aliyuncs.com/BadDragonMustDie.apk'
+            // window.location.href = 'itms-services:///?action=download-manifest&url=https://x1-package.oss-cn-hangzhou.aliyuncs.com/BadDragonMustDie.apk'
+            window.location.href = 'https://x1-package.oss-cn-hangzhou.aliyuncs.com/BadDragonMustDie.apk'
         },
         // routerIOS(){
         //     let _this = this
@@ -566,8 +567,8 @@ export default {
 .video {
     /* width: 658px;
     height: 312px; */
-    width: 526px;
-    height: 249px;
+    width: 546px;
+    height: 264px;
     background:url('../assets/images/video.png') no-repeat center center;
     background-size: 100% 100%;
     margin: 0 auto;
@@ -575,7 +576,7 @@ export default {
 .video .video-content{
     margin-left: 40px;
     margin-top: 10px;
-    width: 430px;
+    width: 440px;
 }
 .qrcode-content {
     display: flex;
