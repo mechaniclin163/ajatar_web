@@ -11,7 +11,7 @@
         </div>
     </div> -->
     <div class="mask" v-if="ifShowQrcode" @click="showQrcode()">
-        <img src="../assets/images/qrcode.jpg" alt="">
+        <img src="../assets/images/qrcode.jpeg" alt="">
     </div>
     <div class="bg-color-2-z-index"></div>
     <div class="top" id="navbar-items">
@@ -580,7 +580,7 @@ export default {
 }
 .qrcode-content {
     display: flex;
-    width: 500px;
+    width: 430px;
     margin: 10px auto;
     justify-content: space-between;
 }
