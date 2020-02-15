@@ -45,11 +45,11 @@
             </div>
             <div class="qrcode-content">
                 <ul>
-                    <img src="../assets/images/qrcode_left.png" alt="">
+                    <img src="../assets/images/qrcode_left.jpeg" alt="">
                     <a @click="downloadAndroid()" href="javascript:;">Android</a>
                 </ul>
                 <ul>
-                    <img src="../assets/images/qrcode_right.png" alt="">
+                    <img src="../assets/images/qrcode_right.jpeg" alt="">
                     <a href="javascript:;">ios(敬请期待)</a>
                 </ul>
             </div>
