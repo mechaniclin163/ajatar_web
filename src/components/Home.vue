@@ -50,7 +50,7 @@
                 </ul>
                 <ul>
                     <img src="../assets/images/qrcode_right.jpeg" alt="">
-                    <a href="javascript:;">ios(敬请期待)</a>
+                    <a href="javascript:;">iOS(敬请期待)</a>
                 </ul>
             </div>
             
@@ -157,7 +157,7 @@
             <img :src="li.imgSrc" alt="">
         </a>
     </div>
-    <div class="footer">© 2019 ChainPlay Studio.All Rights Reserved</div>
+    <div class="footer">© 2020 ChainPlay Studio.All Rights Reserved</div>
 </div>
 </template>
 
