@@ -50,7 +50,7 @@
                 </ul>
                 <ul>
                     <img src="../assets/images/qrcode_right.jpeg" alt="">
-                    <a href="javascript:;">iOS(敬请期待)</a>
+                    <a href="javascript:;">iOS</a>
                 </ul>
             </div>
             
