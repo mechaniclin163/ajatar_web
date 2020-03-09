@@ -12,7 +12,6 @@ html, body, div, p, ul, ol, li, span, a{
 html, body{
     position: relative;
     width: 100%;
-    min-width: 1170px;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
 }

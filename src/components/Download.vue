@@ -52,11 +52,11 @@ export default {
     text-align:center;
 }
 .downloadRouter {
-    width: 100%;
+    width: 90%;
     line-height: 24px;
     font-size: 30px;
-    margin-top: 60px;
     text-align:center;
+    margin: 60px auto;
 }
 
 </style>
