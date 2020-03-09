@@ -12,7 +12,7 @@ export default {
     data () {
         return {
             android: 'https://x1-package.oss-cn-hangzhou.aliyuncs.com/BadDragonMustDie.apk',
-            ios: '敬请期待',
+            ios: 'itms-services:///?action=download-manifest&url=https://chainplay-fun.oss-cn-beijing.aliyuncs.com/dmd_release.plist',
             downloadApk: ''
         }
     },
