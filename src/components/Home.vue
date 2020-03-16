@@ -50,7 +50,7 @@
                 </ul>
                 <ul>
                     <img src="../assets/images/qrcode_right.jpeg" alt="">
-                    <a href="javascript:;">iOS</a>
+                    <a href="javascript:;" @click="routerIOS()">iOS</a>
                 </ul>
             </div>
             
@@ -303,10 +303,10 @@ export default {
             // window.location.href = 'itms-services:///?action=download-manifest&url=https://x1-package.oss-cn-hangzhou.aliyuncs.com/BadDragonMustDie.apk'
             window.location.href = 'https://x1-package.oss-cn-hangzhou.aliyuncs.com/BadDragonMustDie.apk'
         },
-        // routerIOS(){
-        //     let _this = this
-        //     window.location.href = "itms-services:///?action=download-manifest&url=https://chainplay-fun.oss-cn-beijing.aliyuncs.com/crypto_knights.plist"
-        // },
+        routerIOS(){
+            let _this = this
+            window.location.href = "itms-services:///?action=download-manifest&url=https://chainplay-fun.oss-cn-beijing.aliyuncs.com/dmd_release.plist"
+        },
         // routerIOSMYKEY(){
         //     let _this = this
         //     window.location.href = "itms-services:///?action=download-manifest&url=https://chainplay-fun.oss-cn-beijing.aliyuncs.com/crypto_knights_mykey.plist"
