@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: 'https://jdi.cocosbcx.net/gamesubmit/',
+    assetsPublicPath: 'https://jdi.cocosbcx.net/dmd/',
 
     /**
      * Source Maps
